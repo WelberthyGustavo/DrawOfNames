@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+header{
+    display: flex;
+    max-width: 100%;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+}
+
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 40px;
+}
+
+form  h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+#lbl{
+    width: 200px;
+    height: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+}
+
+
+/*buttons*/
+
+#btn1{
+    width: 100px;
+    height: 30px;
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #1E90FF;
+    border:1px, black;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    margin: 10px;
+
+}
+
+#btn2{
+    width: 100px;
+    height: 30px;
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border:1px, black;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    margin: 10px;
+
+}
+
+#btn3{
+    width: 100px;
+    height: 30px;
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: tomato;
+    border:1px, black;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    margin: 10px;
+}
+
+
+.outNames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 400px;
+
+}
+
+span.names{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: chartreuse;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+.sorted{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+.nameSorted{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: tomato;
+    padding: 20px;
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    bottom: 0px;
+    margin-top: 30px;
+}
+
+.end p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+
+
